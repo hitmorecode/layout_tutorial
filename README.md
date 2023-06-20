@@ -12,4 +12,4 @@
 
 # Screenshot
 ![](screenshot_mobile.jpg)
-Try to recreate this image.
+- Try to recreate this image.
