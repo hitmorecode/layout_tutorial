@@ -10,4 +10,6 @@
  # HTML
  Before starting with CSS study the html structure, see if it makes sense how its divided. Once you understand this, jump on the CSS and see if you can recreate the layout.
 
+# Screenshot
 ![](screenshot_mobile.jpg)
+Try to recreate this image.
