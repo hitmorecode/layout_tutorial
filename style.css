@@ -1,0 +1,79 @@
+/* mobile first layout */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a0c1b;
+}
+
+.card {
+  height: auto;
+}
+
+.card-upper {
+  width: 324px;
+  height: 240px;
+  background-color: #a157d1;
+}
+
+.card-lower {
+  width: 324px;
+  height: 540px;
+  background-color: #1c1938;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-header {
+  background-color: #fff;
+  width: 257px;
+  height: 92px;
+}
+
+.card-description {
+  width: 257px;
+  height: 92px;
+  background-color: rgb(161, 149, 133);
+}
+
+.card-stat {
+  /* background-color: #158B7D; */
+  width: 103px;
+  height: 292px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stat {
+  background-color: #F0863A;
+  width: 103px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.stat-num {
+  background-color: #7C8FEF;
+  width: 56px;
+  height: 18px;
+}
+
+.stat-text {
+  background-color: #5C7108;
+  width: 80px;
+  height: 9px;
+}
